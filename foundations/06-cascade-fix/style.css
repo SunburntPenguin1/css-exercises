@@ -1,15 +1,15 @@
-body{
+body{ /* this is fine */
   font-family:Arial, Helvetica, sans-serif
 }
 
 .para,
-.small-para {
+.small-para { /* fine */
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
+p.para .small-para { /* fine */
+  font-size: 12px;
   font-weight: 800;
 }
 
@@ -17,7 +17,7 @@ body{
   font-size: 22px;
 }
 
-.confirm {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -35,7 +35,7 @@ body{
   font-size: 14px;
 }
 
-div.text {
+.text .child {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
