@@ -1,10 +1,12 @@
 body {
+  text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .images {
   display: flex;
   justify-content: space-between;
+  
 }
 
 img {
@@ -16,7 +18,7 @@ img {
   gap: 52px;
 }
 .info{
-  text-align: center;
+  max-width: 200px;
 }
 
 .title {
